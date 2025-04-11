@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WedInManali - Luxury Mountain Weddings Starting at ₹8 Lakhs</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .hero-section {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/api/placeholder/1280/720");
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+        }
+        
+        .testimonial-section {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("/api/placeholder/1280/600");
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .venue-img {
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .btn-primary {
+            background-color: #1a5276;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary:hover {
+            background-color: #154360;
+            transform: translateY(-2px);
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #1a5276;
+            transition: width 0.3s;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white py-4 shadow-md fixed w-full z-10">
+        <div class="container mx-auto px-6 flex items-center justify-between">
+            <div class="text-2xl font-bold text-gray-800">WedIn<span class="text-blue-700">Manali</span></div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#" class="nav-link text-gray-700 hover:text-blue-700">Home</a>
+                <a href="#services" class="nav-link text-gray-700 hover:text-blue-700">Services</a>
+                <a href="#venues" class="nav-link text-gray-700 hover:text-blue-700">Hidden Gems</a>
+                <a href="#packages" class="nav-link text-gray-700 hover:text-blue-700">Packages</a>
+                <a href="#about" class="nav-link text-gray-700 hover:text-blue-700">About Us</a>
+                <a href="#contact" class="nav-link text-gray-700 hover:text-blue-700">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-gray-700 focus:outline-none">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section flex items-center justify-center">
+        <div class="text-center px-6">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">Your Dream Mountain Wedding</h1>
+            <h2 class="text-2xl md:text-3xl text-white mb-8">Breathtaking Manali Destination Weddings Starting at ₹8 Lakhs</h2>
+            <a href="#contact" class="btn-primary text-white font-semibold py-3 px-8 rounded-full text-lg shadow-lg hover:shadow-xl">Book Your Free Consultation</a>
+        </div>
+    </section>
+    
+    <!-- CTA Banner -->
+    <section class="py-12 bg-blue-700">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Ready to Begin Your Mountain Wedding Journey?</h2>
+            <p class="text-white text-lg mb-8 max-w-3xl mx-auto">Let us turn your dream wedding into reality with our expertise in creating magical Manali experiences.</p>
+            <a href="#contact" class="bg-white text-blue-700 font-semibold py-3 px-8 rounded-full shadow-lg hover:shadow-xl hover:bg-gray-100 transition">Book Your Free Consultation Today</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">WedInManali</h3>
+                    <p class="text-gray-400 mb-4">Making mountain wedding dreams come true since 2018.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition">Services</a></li>
+                        <li><a href="#venues" class="text-gray-400 hover:text-white transition">Hidden Gems</a></li>
+                        <li><a href="#packages" class="text-gray-400 hover:text-white transition">Packages</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-gray-400"></i>
+                            <span class="text-gray-400">Old Manali Road, Near Mall Road, Manali, HP 175131</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone mr-3 text-gray-400"></i>
+                            <span class="text-gray-400">+91 98765 43210</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-gray-400"></i>
+                            <span class="text-gray-400">info@wedinmanali.com</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Newsletter</h4>
+                    <p class="text-gray-400 mb-4">Subscribe to receive wedding inspiration and special offers.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 rounded-l-lg focus:outline-none flex-grow">
+                        <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded-r-lg hover:bg-blue-600 transition">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2025 WedInManali. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking Float Button -->
+    <div class="fixed bottom-6 right-6 z-10">
+        <a href="#contact" class="bg-blue-700 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:bg-blue-600 transition">
+            <i class="fas fa-calendar-check text-2xl"></i>
+        </a>
+    </div>
+
+    <!-- WhatsApp Float Button -->
+    <div class="fixed bottom-6 left-6 z-10">
+        <a href="https://wa.me/919876543210" target="_blank" class="bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </a>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Our Services</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">We create unforgettable wedding experiences in the stunning landscapes of Manali while handling all the details so you can focus on your special day.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-map-marked-alt text-blue-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Venue Scouting</h3>
+                    <p class="text-gray-600">Access to exclusive hidden gems and breathtaking locations unknown to tourists.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-tasks text-blue-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">End-to-End Planning</h3>
+                    <p class="text-gray-600">Comprehensive planning from concept to execution, ensuring a stress-free experience.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-bed text-blue-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Accommodation</h3>
+                    <p class="text-gray-600">Curated stays for you and your guests at preferential rates with our local partners.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-utensils text-blue-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Catering</h3>
+                    <p class="text-gray-600">Customized menus featuring local Himachali cuisine and international options.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-camera text-blue-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Photography</h3>
+                    <p class="text-gray-600">Professional photographers who know the best spots and lighting in Manali.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-car text-blue-700 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Transportation</h3>
+                    <p class="text-gray-600">Seamless logistics for you and your guests, from airport transfers to local movement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hidden Gems Section -->
+    <section id="venues" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Our Hidden Gems</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">Discover exclusive venues with breathtaking views that most tourists never see.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="/api/placeholder/600/400" alt="Riverside Retreat" class="w-full venue-img">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Riverside Retreat</h3>
+                        <p class="text-gray-600 mb-4">A secluded venue by the Beas River with mountain views and capacity for 100 guests.</p>
+                        <div class="flex justify-between">
+                            <span class="text-blue-700"><i class="fas fa-users mr-2"></i>Up to 100 guests</span>
+                            <a href="#" class="text-blue-700 hover:underline">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="/api/placeholder/600/400" alt="Mountain Peak Estate" class="w-full venue-img">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Mountain Peak Estate</h3>
+                        <p class="text-gray-600 mb-4">Luxury heritage property with panoramic Himalayan views and elegant interiors.</p>
+                        <div class="flex justify-between">
+                            <span class="text-blue-700"><i class="fas fa-users mr-2"></i>Up to 150 guests</span>
+                            <a href="#" class="text-blue-700 hover:underline">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="/api/placeholder/600/400" alt="Apple Orchard Venue" class="w-full venue-img">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Apple Orchard Venue</h3>
+                        <p class="text-gray-600 mb-4">Rustic charm among blooming apple trees with stunning valley views.</p>
+                        <div class="flex justify-between">
+                            <span class="text-blue-700"><i class="fas fa-users mr-2"></i>Up to 80 guests</span>
+                            <a href="#" class="text-blue-700 hover:underline">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#" class="btn-primary text-white font-semibold py-3 px-8 rounded-full shadow-md hover:shadow-lg">Discover All Venues</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Our Packages</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">Transparent pricing with no hidden costs. Choose the package that fits your vision.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                    <div class="bg-blue-700 py-4">
+                        <h3 class="text-2xl font-bold text-white text-center">Essential</h3>
+                    </div>
+                    <div class="p-8">
+                        <div class="text-center mb-6">
+                            <span class="text-4xl font-bold text-gray-800">₹8 Lakhs</span>
+                            <p class="text-gray-600">Starting Price</p>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Intimate venue for up to 50 guests</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Basic decoration and floral arrangements</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Photography (8 hours coverage)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Catering (vegetarian menu)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Accommodation for couple (2 nights)</span>
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#contact" class="btn-primary text-white font-semibold py-2 px-6 rounded-full shadow-md hover:shadow-lg inline-block">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 transform scale-105">
+                    <div class="bg-blue-800 py-4 relative">
+                        <h3 class="text-2xl font-bold text-white text-center">Premium</h3>
+                        <div class="absolute top-0 right-0 bg-yellow-500 text-white text-xs font-bold px-3 py-1 transform translate-x-2 -translate-y-2 rotate-12">POPULAR</div>
+                    </div>
+                    <div class="p-8">
+                        <div class="text-center mb-6">
+                            <span class="text-4xl font-bold text-gray-800">₹12 Lakhs</span>
+                            <p class="text-gray-600">Starting Price</p>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Prime venue for up to 100 guests</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Premium decoration and themed setup</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Photography & Videography</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Gourmet catering with multiple cuisines</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Accommodation for couple (3 nights)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Pre-wedding photoshoot</span>
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#contact" class="btn-primary text-white font-semibold py-2 px-6 rounded-full shadow-md hover:shadow-lg inline-block">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                    <div class="bg-blue-700 py-4">
+                        <h3 class="text-2xl font-bold text-white text-center">Luxury</h3>
+                    </div>
+                    <div class="p-8">
+                        <div class="text-center mb-6">
+                            <span class="text-4xl font-bold text-gray-800">₹18 Lakhs</span>
+                            <p class="text-gray-600">Starting Price</p>
+                        </div>
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Exclusive venue for up to 150 guests</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Luxury decoration with customized theme</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Premium photography & cinematography</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Gourmet multi-cuisine catering</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">5-star accommodation for couple (5 nights)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                <span class="text-gray-600">Helicopter arrival for couple</span>
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#contact" class="btn-primary text-white font-semibold py-2 px-6 rounded-full shadow-md hover:shadow-lg inline-block">Get Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">Everything you need to know about planning your Manali destination wedding.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">What is the best time to have a wedding in Manali?</h3>
+                    <p class="text-gray-600">The peak seasons are April-June and September-November with pleasant weather. December-February offers magical snow weddings. July-August is monsoon season with occasional rain but lush green landscapes.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">How far in advance should we book?</h3>
+                    <p class="text-gray-600">We recommend booking at least 6-8 months in advance, especially for peak season dates. For winter weddings during December-January, booking 8-10 months ahead is advisable.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Can you accommodate international guests?</h3>
+                    <p class="text-gray-600">Absolutely! We provide complete assistance for international guests including airport transfers, accommodation arrangements, and local guidance. We can also arrange special cultural experiences for them.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">What makes your 8 lakh package affordable?</h3>
+                    <p class="text-gray-600">Our local connections, insider knowledge of hidden venues, and direct relationships with vendors allow us to eliminate middlemen costs while maintaining quality. We also optimize resources without compromising on experience.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">How do we reach Manali?</h3>
+                    <p class="text-gray-600">The nearest airport is Bhuntar Airport (Kullu-Manali Airport) about 50km away. For better connectivity, Chandigarh Airport (295km) is recommended. We arrange comfortable transportation from these locations to Manali.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Do you handle legal paperwork for weddings?</h3>
+                    <p class="text-gray-600">Yes, we provide guidance and assistance with all legal requirements for both Indian and foreign nationals. For court marriages, we can arrange the entire process with local authorities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Happy Couples</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">Read what our couples have to say about their WedInManali experience.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-6">
+                        <img src="/api/placeholder/80/80" alt="Couple" class="w-16 h-16 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="text-xl font-semibold">Ananya & Vikram</h4>
+                            <p class="text-gray-600">Wedding in January 2025</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"WedInManali turned our dream of a snow wedding into reality without breaking the bank. Their knowledge of hidden locations and local connections saved us lakhs while giving us a premium experience."</p>
+                    <div class="mt-4 text-yellow-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <div class="flex items-center mb-6">
+                        <img src="/api/placeholder/80/80" alt="Couple" class="w-16 h-16 rounded-full object-cover mr-4">
+                        <div>
+                            <h4 class="text-xl font-semibold">Meera & Rahul</h4>
+                            <p class="text-gray-600">Wedding in October 2024</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"Planning a wedding remotely seemed impossible until we found WedInManali. They handled everything perfectly, and our guests still talk about the beautiful apple orchard venue and stunning mountain backdrop."</p>
+                    <div class="mt-4 text-yellow-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold text-gray-800 mb-6">About WedInManali</h2>
+                    <p class="text-gray-600 mb-6 text-lg">Founded by Manali locals with over 15 years of wedding planning experience, WedInManali was born from a passion to share the beauty of our hometown with couples seeking a magical mountain wedding experience.</p>
+                    <p class="text-gray-600 mb-6 text-lg">We leverage our deep local connections and insider knowledge to create luxury experiences at reasonable prices, making dream destination weddings accessible to more couples.</p>
+                    <p class="text-gray-600 text-lg">Our team has planned over 200 weddings in various Himalayan locations, and we take pride in our ability to create customized experiences that reflect each couple's unique love story.</p>
+                </div>
+                <div>
+                    <img src="/api/placeholder/600/400" alt="Our Team" class="rounded-lg shadow-lg w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Start Your Journey</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">Book a free consultation to discuss your dream wedding in Manali.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-lg shadow-md">
+                    <form>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label class="block text-gray-700 mb-2" for="name">Your Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 mb-2" for="partner">Partner's Name</label>
+                                <input type="text" id="partner" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label class="block text-gray-700 mb-2" for="email">Email Address</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 mb-2" for="phone">Phone Number</label>
+                                <input type="tel" id="phone" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                            </div>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label class="block text-gray-700 mb-2" for="date">Tentative Wedding Date</label>
+                            <input type="date" id="date" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label class="block text-gray-700 mb-2" for="guests">Estimated Number of Guests</label>
+                            <select id="guests" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                                <option>Less than 50</option>
+                                <option>50-100</option>
+                                <option>100-150</option>
+                                <option>More than 150</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label class="block text-gray-700 mb-2" for="message">Tell Us About Your Dream Wedding</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary text-white font-semibold py-3 px-8 rounded-full shadow-md hover:shadow-lg w-full">Book Free Consultation</button>
+                    </form>
+                </div>
+                
+                <div>
+                    <div class="bg-white p-8 rounded-lg shadow-md mb-8">
+                        <h3 class="text-2xl font-semibold mb-4">Contact Information</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <i class="fas fa-map-marker-alt text-blue-700 mt-1 mr-4 text-lg"></i>
+                                <p class="text-gray-600">Old Manali Road, Near Mall Road, Manali, Himachal Pradesh 175131</p>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-phone text-blue-700 mr-4 text-lg"></i>
+                                <p class="text-gray-600">+91 98765 43210</p>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-envelope text-blue-700 mr-4 text-lg"></i>
+                                <p class="text-gray-600">info@wedinmanali.com</p>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fab fa-whatsapp text-blue-700 mr-4 text-lg"></i>
+                                <p class="text-gray-600">WhatsApp: +91 98765 43210</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-semibold mb-4">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-blue-100 w-10 h-10 rounded-full flex items-center justify-center text-blue-700 hover:bg-blue-200 transition">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="bg-blue-100 w-10 h-10 rounded-full flex items-center justify-center text-blue-700 hover:bg-blue-200 transition">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                            <a href="#" class="bg-blue-100 w-10 h-10 rounded-full flex items-center justify-center text-blue-700 hover:bg-blue-200 transition">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" class="bg-blue-100 w-10 h-10 rounded-full flex items-center justify-center text-blue-700 hover:bg-blue-200 transition">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
