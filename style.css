@@ -1,15 +1,6 @@
-/* Add this to your style.css file */
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Ensures the body takes at least the full viewport height */
-}
-
-main {
-  flex: 1; /* Makes the main content area expand to push footer down */
-}
-
-footer {
-  width: 100%;
-  margin-top: auto; /* Pushes the footer to the bottom */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
 }
